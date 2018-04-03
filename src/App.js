@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+
+//Components
+import Home from './components/Home';
+
 
 class App extends Component {
   render() {
-    return (
-      <div>
-        Hello!
-      </div>
-    );
+    return <div>
+       Hello!
+       <Home/>
+       </div>;
   }
 }
 
